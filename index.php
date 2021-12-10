@@ -9,13 +9,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Tabla</title>
 </head>
+
 <body>
   <div class="contenedor">
     <div class="sub_contenedor">
       <table>
-        <tr>
+        <tr class= "campos">
           <td>Nombre</td>
           <td>Precio</td>
           <td>Cantidad</td>

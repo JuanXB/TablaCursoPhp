@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(180, 174, 232);
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.contenedor {
+  min-height: 90vh;
+  flex-direction: column;
+  
+}
+
+.sub_contenedor {
+  min-height: calc(90vh - 4rem);
+  width:90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+table td {
+  width: 8rem;
+  outline: 1px solid rgb(147, 50, 158);
+}
+
+table tr {
+  height: 3rem;
+}
+
+table .campos {
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(68, 10, 103, 0.5);
+}
+
+footer {
+  height: 4rem;
+  text-align: center;
+}
+footer h2 {
+  font-size: medium;
+  color: rgb(255, 227, 254);
+}
